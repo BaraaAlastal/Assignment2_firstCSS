@@ -1,0 +1,72 @@
+body,html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /*background-image: url("picture.jpg");*/
+    /*background: #a263a4;*/
+    background-image:url("music_background.jpg") ;
+}
+.wrapper{
+    height: 100%;
+}
+.search-area{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+.single-search {
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 40px;
+    background-color: #fafafa;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 0 8px 10px rgba(0,0,0,0.3);
+}
+.custom-input{
+    border: 0;
+    outline: 0;
+    width: 0;
+    line-height: 40px;
+    transition: width 0.4s linear;
+}
+input::placeholder {
+    color: #262626;
+    font-size: 20px;
+}
+.icon-area {
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    text-decoration: none;
+    color: #262626;
+}
+.single-search:hover  .custom-input{
+    padding: 0 10px;
+    width: 500px;
+    caret-color:#262626;
+    transition: width 0.4s linear;
+}
+.single-search:hover  .icon-area{
+    background: #b8b0b0;
+    color: #94174f;
+}
+
+.title{
+
+    margin: 40px 500px;
+    /*padding: 100px;*/
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.video{
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
